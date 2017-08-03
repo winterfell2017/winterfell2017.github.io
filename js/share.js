@@ -42,7 +42,7 @@
     $('.article-share-box.on').hide();
 
     box.css({
-      top: offset.top - 75,
+      top: offset.top - 90,
       left: offset.left + 150
     }).addClass('on');
   }).on('click', '.article-share-box', function(e){
